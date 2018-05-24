@@ -10,6 +10,7 @@ os:
 
 before_install:
   - nproc
+  - lscpu
   - sudo apt-get update -y
   - sudo add-apt-repository --yes ppa:webupd8team/java
   - sudo apt-get install oracle-java9-installer
